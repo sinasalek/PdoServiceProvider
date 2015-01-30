@@ -169,7 +169,7 @@ abstract class PdoConfig implements PdoConfigInterface
     {
         $params = $this->prepareParameters($params);
 
-        $pdo = new \PDO(
+        $pdo = new PDO(
             $params['dsn'],
             isset($params['user']) ? (string) $params['user'] : null,
             isset($params['password']) ? (string) $params['password'] : null,

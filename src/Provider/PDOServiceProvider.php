@@ -11,7 +11,7 @@ use Silex\ServiceProviderInterface;
  *
  * @author Charles Sanquer <charles.sanquer@gmail.com>
  */
-class PDOServiceProvider implements ServiceProviderInterface
+class PdoServiceProvider implements ServiceProviderInterface
 {
     /**
      * @param string $prefix

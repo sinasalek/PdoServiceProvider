@@ -1,5 +1,5 @@
 {
-    "name": "csanquer/pdo-service-provider",
+    "name": "sinasalek/pdo-service-provider",
     "description": "a PDO database service provider for silex",
     "keywords": [
         "silex", "database", "pdo", "service provider"
